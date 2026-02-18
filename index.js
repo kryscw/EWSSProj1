@@ -48,5 +48,6 @@ function updateList() {
 function deleteItem(id) {
     listArray.splice(id, 1);
     listCheckedArray.splice(id, 1);
+    listDateArray.splice(id, 1);
     updateList();
 }
