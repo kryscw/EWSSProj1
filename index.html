@@ -6,8 +6,10 @@
 </head>
 <body>
     <h1>To-Do List</h1>
-    <ul style="list-style: none;" id="todoList"></ul>
-    <label for="todoInput">Name: </label><input type="text" id="todoInput"><br>
+    <div style="height:250px; width:250px; overflow:auto;">
+        <ul style="list-style: none;" id="todoList"></ul>
+    </div>
+    <label for="todoInput">Input Item: </label><input type="text" id="todoInput"><br>
     <button onclick="addItem();">Add</button>
     <script src="index.js"></script>
 </body>
