@@ -1,2 +1,1 @@
-To do list app
-
+To-do list app written in HTML and JS and whatever else
